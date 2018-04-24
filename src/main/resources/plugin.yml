@@ -1,0 +1,17 @@
+name: Tell
+author: nexus
+main : nexus.Tell
+version: 1.0.0
+api: [1.0.0]
+
+permissions:
+ cmd.tell:
+  description: 귓속말
+  default: true
+
+commands:
+ whisper:
+  usage: /whisper
+  permission: cmd.tell
+  description: 귓속말
+  default: true
